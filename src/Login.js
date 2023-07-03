@@ -27,7 +27,7 @@ function Login(){
         const err = Validation(values);
         setErrors(err);
         if(err.email === "" && err.password === ""){
-            axios.post('https://pm3-artifacts.onrender.com/login', values)
+            axios.post('https://pm3-artifacts-server.onrender.com/login', values)
             .then(res => {
                 if(res.data.msg === "Succes"){
                     setIsAuth(true);
