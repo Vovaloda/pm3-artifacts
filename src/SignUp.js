@@ -24,7 +24,7 @@ function SignUp(){
         const err = SignUpValidation(values);
         setErrors(err);
         if(err.name === "" && err.email === "" && err.password === ""){
-            axios.post('https://pm3-artifacts.onrender.com/signup', values)
+            axios.post('https://pm3-artifacts-server.onrender.com/signup', values)
             .then(res => {
                 if(res.data === "Succes"){
                     navigate('/');
