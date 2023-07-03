@@ -41,7 +41,7 @@ function Home(){
 
     async function fetchLevels(){
         setIsLevelsLoading(true);
-        const response = await axios.get('https://pm3-artifacts.onrender.com/levels');
+        const response = await axios.get('https://pm3-artifacts-server.onrender.com/levels');
         setLevels(response.data);
         setDefaultSortedLevels(response.data);
         setIsLevelsLoading(false);
@@ -49,7 +49,7 @@ function Home(){
 
     async function fetchCompletedLevels(){
         setIsCompletedLevelLoading(true);
-        await axios.post('https://pm3-artifacts.onrender.com/getCompletedLevels', {playerId})
+        await axios.post('https://pm3-artifacts-server.onrender.com/getCompletedLevels', {playerId})
             .then(res => {
                 if(res.data.msg === "Succes"){
                     const tmpArrayOfCompletedLevels = [];
@@ -69,7 +69,7 @@ function Home(){
     const changeLevelStatus = async (level, status) => {
         if(status){
             setCompletedLevels([...completedLevels, level.id]);
-            await axios.post('https://pm3-artifacts.onrender.com/addLevelByUser', {playerId, levelId:level.id})
+            await axios.post('https://pm3-artifacts-server.onrender.com/addLevelByUser', {playerId, levelId:level.id})
             .then(res => {
                 if(res.data.msg !== "Succes"){
                     alert("Error. Please refresh the page.");
@@ -79,7 +79,7 @@ function Home(){
         }
         else{
             setCompletedLevels(completedLevels.filter(lvl => lvl !== level.id));
-            await axios.post('https://pm3-artifacts.onrender.com/deleteLevelByUser', {playerId, levelId:level.id})
+            await axios.post('https://pm3-artifacts-server.onrender.com/deleteLevelByUser', {playerId, levelId:level.id})
             .then(res => {
                 if(res.data.msg !== "Succes"){
                     alert("Error. Please refresh the page.");
