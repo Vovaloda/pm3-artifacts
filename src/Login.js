@@ -46,7 +46,7 @@ function Login(){
 
     return(
             <div className='LoginForm d-flex justify-content-center align-items-center bg-image vh-100'>
-                <div className='bg-white p-3 rounded w-25'>
+                <div className='bg-white p-3 rounded w-75'>
                     <h2>Sign-In</h2>
                     <form action="" onSubmit={handleSubmit}>
                         <div className='mb-3'>
