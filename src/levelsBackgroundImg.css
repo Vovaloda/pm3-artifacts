@@ -1,0 +1,206 @@
+.levelDiv{
+    height: 100px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.Plains{
+    background-image: url(./images/Plains.png);
+}
+
+.Forest{
+    background-image: url(./images/Forest.png);
+}
+
+.Mountain{
+    background-image: url(./images/Mountain.png);
+}
+
+.Underground{
+    background-image: url(./images/Underground.png);
+}
+
+.Desert{
+    background-image: url(./images/Desert.png);
+}
+
+.Jungle{
+    background-image: url(./images/Jungle.png);
+}
+
+.Ocean{
+    background-image: url(./images/Ocean.png);
+}
+
+.VolcanicIsland{
+    background-image: url(./images/Volcanic\ Island.png);
+}
+
+.CenterOfTheEarth{
+    background-image: url(./images/Center\ Of\ The\ Earth.png);
+}
+
+.Nexus{
+    background-image: url(./images/Nexus.png);
+}
+
+.Jurassic{
+    background-image: url(./images/Jurassic.png);
+}
+
+.PostApocalyptic{
+    background-image: url(./images/Post\ Apocalyptic.png);
+}
+
+.Moon{
+    background-image: url(./images/Moon.png);
+}
+
+.Olympus{
+    background-image: url(./images/Olympus.png);
+}
+
+.NorthPole{
+    background-image: url(./images/North\ Pole.png);
+}
+
+.Tomorrowland{
+    background-image: url(./images/Tomorrowland.png);
+}
+
+.SealedFortress{
+    background-image: url(./images/Sealed\ Fortress.png);
+}
+
+.MonsterTemple{
+    background-image: url(./images/Monster\ Temple.png);
+}
+
+.RuinedTemple{
+    background-image: url(./images/Ruined\ Temple.png);
+}
+
+.Niflheim{
+    background-image: url(./images/Niflheim.png);
+}
+
+.MountainTemples{
+    background-image: url(./images/Mountain\ Temples.png);
+}
+
+.TigerTemple{
+    background-image: url(./images/Tiger\ Temple.png);
+}
+
+.UnderwaterCity{
+    background-image: url(./images/Undergrowth.png);
+}
+
+.EgyptianTomb{
+    background-image: url(./images/Egyptian\ Tomb.png);
+}
+
+.Safari{
+    background-image: url(./images/Safari.png);
+}
+
+.Wondrousland{
+    background-image: url(./images/Wondrousland.png);
+}
+
+.SamuraiWorld{
+    background-image: url(./images/Samurai\ World.png);
+}
+
+.TurtleIsland{
+    background-image: url(./images/Turtle\ Island.png);
+}
+
+.OrcVillage{
+    background-image: url(./images/Orc\ Village.png);
+}
+
+.ClockTowerVillage{
+    background-image: url(./images/Clock\ Tower\ Village.png);
+}
+
+.MountainTemple{
+    background-image: url(./images/Mountain\ Temple.png);
+}
+
+.OtherWorld{
+    background-image: url(./images/Other\ World.png);
+}
+
+.Colosseum{
+    background-image: url(./images/Colosseum.png);
+}
+
+.SunkenVikingShip{
+    background-image: url(./images/Sunken\ Viking\ Ship.png);
+}
+
+.BaobabForest{
+    background-image: url(./images/Baobab\ Forest.png);
+}
+
+.TheCatacombs{
+    background-image: url(./images/The\ Catacombs.png);
+}
+
+.FarWest{
+    background-image: url(./images/Far\ West.png);
+}
+
+.Archipelago{
+    background-image: url(./images/Archipelago.png);
+}
+
+.MythAndMagic{
+    background-image: url(./images/Myth\ And\ Magic.png);
+}
+
+.Lions{
+    background-image: url(./images/Lions.png);
+}
+
+.AncientSwamp{
+    background-image: url(./images/Ancient\ Swamp.png);
+}
+
+.DeepLake{
+    background-image: url(./images/Deep\ Lake.png);
+}
+
+.SeaOfRocks{
+    background-image: url(./images/Sea\ Of\ Rocks.png);
+}
+
+.SunkenIsland{
+    background-image: url(./images/Sunken\ Island.png);
+}
+
+.EnchantedForest{
+    background-image: url(./images/Enchanted\ Forest.png);
+}
+
+.EerieTemple{
+    background-image: url(./images/Eerie\ Temple.png);
+}
+
+.MysticMountains{
+    background-image: url(./images/Mystic\ Mountains.png);
+}
+
+.Undergrowth{
+    background-image: url(./images/Undergrowth.png);
+}
+
+.Summit{
+    background-image: url(./images/Summit.png);
+}
+
+.MountainRuins{
+    background-image: url(./images/Mountain\ Ruins.png);
+}
